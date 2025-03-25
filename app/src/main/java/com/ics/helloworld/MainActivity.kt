@@ -7,6 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 import com.squareup.picasso.Picasso
+import org.hamcrest.MatcherAssert
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +22,6 @@ class MainActivity : AppCompatActivity() {
 
         // Call functions from third party libraries
         val picasso = Picasso.get();
-
+        val hamcrest = MatcherAssert.assertThat("Output is true", true)
     }
 }

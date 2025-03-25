@@ -48,4 +48,5 @@ dependencies {
 
     // Adding third party libraries here
     implementation("com.squareup.picasso:picasso:2.71828")
+    implementation(files("libs/hamcrest-all-1.3.jar"))
 }
